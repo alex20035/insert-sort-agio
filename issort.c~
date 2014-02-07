@@ -1,0 +1,12 @@
+#include<stdlib.h>
+#include<string.h>
+
+#include"issort.h"
+
+int issort(void *data,int size,int esize,int(*compare)(const void *key1,const void *key2))
+{
+	char *a=data;
+	void *key;
+	int i,j;
+	
+}
